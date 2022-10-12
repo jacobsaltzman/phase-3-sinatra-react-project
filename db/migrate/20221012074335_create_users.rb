@@ -6,5 +6,6 @@ class CreateUsers < ActiveRecord::Migration[6.1]
       t.date :date_joined
       t.string :img_url
       t.integer :number_of_reviews
+    end
   end
 end
