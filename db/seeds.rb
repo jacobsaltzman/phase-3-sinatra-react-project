@@ -3,74 +3,81 @@ puts "🌱 Seeding movies..."
 
 movies_attributes  [
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
   {
-    title: "",
-    director: "",
-    type: "",
+    title: "Us",
+    director: "Jordan Peele",
+    type: "Mystery/Thriller",
     year: "",
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: ""
+    rotton_percentage: "",
+    scare_scale: ""
   },
 ]
 
