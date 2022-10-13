@@ -10,8 +10,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
   {
     title: "",
@@ -21,8 +20,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
   {
     title: "",
@@ -32,8 +30,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
   {
     title: "",
@@ -43,8 +40,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
   {
     title: "",
@@ -54,8 +50,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
   {
     title: "",
@@ -65,8 +60,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
   {
     title: "",
@@ -76,8 +70,7 @@ movies_attributes  [
     comments: "",
     image: "",
     user_rating: "",
-    rotton_percentage: "",
-    rotton_rank: ""
+    rotton_percentage: ""
   },
 ]
 
