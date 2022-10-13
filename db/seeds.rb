@@ -7,63 +7,70 @@ movies_attributes  [
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
   {
     title: "",
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
   {
     title: "",
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
   {
     title: "",
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
   {
     title: "",
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
   {
     title: "",
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
   {
     title: "",
     director: "",
     type: "",
     year: "",
-    blurb: "",
+    comments: "",
     image: "",
-    rating: ""
+    rating: "",
+    RT: ""
   },
 ]
 
