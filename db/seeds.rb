@@ -1,7 +1,7 @@
 puts "🌱 Seeding movies..."
 
 
-movies_attributes  [
+movies_attributes = [
   {
     title: "Us",
     director: "Jordan Peele",
