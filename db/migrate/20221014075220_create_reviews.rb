@@ -5,7 +5,6 @@ class CreateReviews < ActiveRecord::Migration[6.1]
       t.integer :user_id
       t.string :comments
       t.integer :user_rating
-      t.integer :rotton_percentage
       t.integer :scare_scale
       t.timestamps
     end
