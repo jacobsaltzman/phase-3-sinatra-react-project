@@ -54,115 +54,73 @@ movie_data = [
   },
   {
     title: "The Omen",
-    director: "",
+    director: "Richard Donner",
     type: "Paranormal",
     year: "1976",
-    image: ""
+    image: "https://upload.wikimedia.org/wikipedia/en/1/1d/Omen_ver4.jpg"
   },
   {
     title: "The Grudge",
-    director: "",
+    director: "Takashi Shimizu",
     type: "Paranormal",
     year: "2004",
-    image: ""
+    image: "https://upload.wikimedia.org/wikipedia/en/9/91/The_Grudge_movie.jpg"
   },
   {
     title: "The Frighteners",
-    director: "",
+    director: "Peter Jackson",
     type: "Comedy",
     year: "1996",
-    image: ""
+    image: "https://upload.wikimedia.org/wikipedia/en/6/63/Frighteners_ver1.jpg"
   },
   {
     title: "The Blair Witch Project",
-    director: "",
+    director: "Daniel Myrick",
     type: "FF",
-    year: "",
-    image: ""
+    year: "1999",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/26/Blair_Witch_Project.jpg"
   },
   {
     title: "Hellraiser",
-    director: "",
+    director: "Clive Barker",
     type: "Gore",
-    year: "",
-    image: ""
+    year: "1987",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/40/Hellraiser-UK-Quad-poster.JPG"
   },
   {
     title: "Nope",
     director: "Jordan Peele",
     type: "SciFi",
-    year: "",
-    image: ""
+    year: "2022",
+    image: "https://upload.wikimedia.org/wikipedia/en/e/e6/Nope_%28film%29_poster.jpg"
   },
   {
-    title: "",
-    director: "",
+    title: "Midsommar",
+    director: "Ari Aster",
     type: "Psychological",
-    year: "",
-    image: ""
+    year: "2019",
+    image: "https://upload.wikimedia.org/wikipedia/en/4/47/Midsommar_%282019_film_poster%29.png"
   },
   {
     title: "Friday the 13th",
-    director: "",
+    director: "Sean Cunningham",
     type: "Slasher",
-    year: "",
-    image: ""
+    year: "1980",
+    image: "https://upload.wikimedia.org/wikipedia/en/2/2c/Friday_the_13th_%281980%29_theatrical_poster.jpg"
   },
   {
     title: "Godzilla",
-    director: "",
+    director: "Ishiro Honda",
     type: "Monster",
-    year: "",
-    image: ""
+    year: "1954",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/95/Gojira_1954_Japanese_poster.jpg"
   },
   {
-    title: "Shawn of the Dead",
-    director: "",
+    title: "Shaun of the Dead",
+    director: "Edgar Wright",
     type: "Comedy",
-    year: "",
-    image: ""
-  },
-  {
-    title: "",
-    director: "",
-    type: "",
-    year: "",
-    image: ""
-  },
-  {
-    title: "",
-    director: "",
-    type: "",
-    year: "",
-    image: ""
-  },
-  {
-    title: "",
-    director: "",
-    type: "",
-    year: "",
-    image: ""
-  },
-  {
-    title: "",
-    director: "",
-    type: "",
-    year: "",
-    image: ""
-  },
-  {
-    title: "",
-    director: "",
-    type: "",
-    year: "",
-    image: ""
-  },
-  {
-    title: "",
-    director: "",
-    type: "",
-    year: "",
-    image: ""
+    year: "2004",
+    image: "https://upload.wikimedia.org/wikipedia/en/8/8d/Shaun_of_the_Dead_film_poster.jpg"
   }
 ]
 
