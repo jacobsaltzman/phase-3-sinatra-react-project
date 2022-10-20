@@ -1,7 +1,7 @@
 class Review < ActiveRecord::Base
 
-  belongs_to :user
-  belongs_to :movies
-
+  belongs_to :user #one to one
+  belongs_to :movies #one to one
+ 
 
 end
