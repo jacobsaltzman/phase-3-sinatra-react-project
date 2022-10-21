@@ -16,8 +16,10 @@ ActiveRecord::Schema.define(version: 2022_10_14_075220) do
     t.string "title"
     t.string "director"
     t.integer "year"
-    t.string "type"
+    t.string "subgenre"
     t.string "image"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "reviews", force: :cascade do |t|

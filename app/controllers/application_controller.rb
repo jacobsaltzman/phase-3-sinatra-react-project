@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
   #movies controller
   get "/movies" do
     movies = Movie.all 
-    movies.to_json  #can do Movie.all.to_json, but keeping it separate for clarity and learning
+    movies.to_json  #can do Movie.all.to_json, but keeping it separate for clarity and learning for now
   end
 
   get "/movies/:id" do
