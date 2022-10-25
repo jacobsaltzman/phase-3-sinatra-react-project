@@ -139,6 +139,23 @@ user_data = [
   }
 ]
 
+review_data = [
+  {
+    movie_id: 2,
+    user_id: 1,
+    comments: "What a wild ride!",
+    user_rating: 4,
+    scare_scale: 3
+  },
+  {
+    movie_id: 1,
+    user_id: 2,
+    comments: "Whoa!",
+    user_rating: 3,
+    scare_scale: 2
+  }
+]
+
 movie_data.each do |attr|
    Movie.create(attr)
 end
