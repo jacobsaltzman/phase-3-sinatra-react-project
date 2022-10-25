@@ -124,10 +124,29 @@ movie_data = [
   }
 ]
 
+user_data = [
+  {
+    username: "Jacob",
+    password: "firstOne",
+    icon: "stealth-jpg",
+    reviews: 3
+  },
+  {
+    username: "Nikki",
+    password: "secondOne",
+    icon: "sexy-jpg",
+    reviews: 4
+  }
+]
+
 movie_data.each do |attr|
    Movie.create(attr)
 end
 
+user_data.each do |attr|
+    User.create(attr)
+end
 
 puts "✅ Done seeding!"
 puts "#{Movie.count} movies created!"
+puts "#{User.count} users created!"
