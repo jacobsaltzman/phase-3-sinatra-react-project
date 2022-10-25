@@ -171,3 +171,4 @@ end
 puts "✅ Done seeding!"
 puts "#{Movie.count} movies created!"
 puts "#{User.count} users created!"
+puts "#{Review.count} reviews created!"
