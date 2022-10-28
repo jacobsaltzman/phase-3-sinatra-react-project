@@ -57,4 +57,16 @@ class ApplicationController < Sinatra::Base
     review = Review.create(params) #params = user id and movie id, est association for many to many
     review.to_json
   end
+
+  patch "/reviews/:id" do
+    review = Review.find(params[:id])
+    review.update(params)
+    review.to_json
+  end
+
+  delete "/reviews/:id" do
+    review = Review.find(params[:id])
+    review.destroy
+  end
+
 end
