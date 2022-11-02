@@ -77,8 +77,15 @@ class ApplicationController < Sinatra::Base
 
   patch "/reviews/:id" do
     review = Review.find(params[:id])
-    review.update(params) #might need to add :comments to be specific
+    review.update(params) 
     review.to_json
+  end
+
+  #patch request for just the comment portion
+  patch "/reviews/:id/comments" do
+    review = Review.find(params[:id])
+    review_comment = review.comments.update(params) 
+    review_comment.to_json
   end
 
   delete "/reviews/:id" do
