@@ -55,10 +55,19 @@ class ApplicationController < Sinatra::Base
     review.to_json
   end
 
-  get "/reviews/:id/movie" do
+  #get the exact title of the movie for the review
+
+  get "/reviews/:id/movie" do  
     review = Review.find(params[:id])
     review_movie = review.movie.title
     review_movie.to_json
+  end
+
+  #get the user who made the review
+  get "/reviews/:id/user" do
+    review = Review.find(params[:id])
+    review_user = review.user.username
+    review_user.to_json
   end
 
   post "/reviews" do
