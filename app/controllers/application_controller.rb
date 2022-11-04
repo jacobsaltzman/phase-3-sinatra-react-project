@@ -70,6 +70,12 @@ class ApplicationController < Sinatra::Base
     review_user.to_json
   end
 
+  get "/reviews/:id/comments" do
+    review = Review.find(params[:id])
+    review_comment = review.comments
+    review_comment.to_json
+  end
+
   post "/reviews" do
     review = Review.create(params) #params = user id and movie id, est association for many to many
     review.to_json
@@ -82,11 +88,11 @@ class ApplicationController < Sinatra::Base
   end
 
   #patch request for just the comment portion
-  patch "/reviews/:id/comments" do
-    review = Review.find(params[:id])
-    review_comment = review.comments.update(params) 
-    review_comment.to_json
-  end
+  #patch "/reviews/:id/comments" do
+    #review = Review.find(params[:id])
+    #review_comment = review.comments.update(params) 
+    #review_comment.to_json
+  #end
 
   delete "/reviews/:id" do
     review = Review.find(params[:id])
