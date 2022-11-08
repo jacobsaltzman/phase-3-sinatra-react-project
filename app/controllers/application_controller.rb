@@ -15,7 +15,7 @@ class ApplicationController < Sinatra::Base
 
   get "/movies/:id" do
     movie = Movie.find(params[:id])
-    movie.to_json
+    movie.to_json(include: :reviews )
   end
 
   post "/movies" do
