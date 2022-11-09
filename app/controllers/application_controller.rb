@@ -24,7 +24,7 @@ class ApplicationController < Sinatra::Base
 
   get "/reviews" do 
     reviews = Review.all 
-    reviews.to_json  
+    reviews.to_json(include: :user)
   end
 
   get "/reviews/:id" do
@@ -34,13 +34,13 @@ class ApplicationController < Sinatra::Base
 
   post "/reviews" do
     review = Review.create(params)
-    review.to_json
+    review.to_json(include: :user)
   end
 
   patch "/reviews/:id" do
     review = Review.find(params[:id])
     review.update(params) 
-    review.to_json
+    review.to_json(include: :user)
   end
 
   delete "/reviews/:id" do
