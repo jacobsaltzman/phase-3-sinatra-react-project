@@ -33,18 +33,18 @@ class ApplicationController < Sinatra::Base
 
   get "/reviews/:id" do
     review = Review.find(params[:id])
-    review.to_json(include: [:movie, :user])
+    review.to_json(:include => [:movie, :user])
   end
 
   post "/reviews" do
     review = Review.create(params)
-    review.to_json(include: :user)
+    review.to_json(:include => [:movie, :user])
   end
 
   patch "/reviews/:id" do
     review = Review.find(params[:id])
     review.update(params) 
-    review.to_json(include: :user)
+    review.to_json(:include => [:movie, :user])
   end
 
   delete "/reviews/:id" do
