@@ -28,12 +28,12 @@ class ApplicationController < Sinatra::Base
 
   get "/reviews" do 
     reviews = Review.all 
-    reviews.to_json(include: :user)
+    reviews.to_json(:include => [:movie, :user]) #multiple associations on the same level
   end
 
   get "/reviews/:id" do
     review = Review.find(params[:id])
-    review.to_json(include: :movie, include: :user)
+    review.to_json(include: [:movie, :user])
   end
 
   post "/reviews" do
