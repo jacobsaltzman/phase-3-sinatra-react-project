@@ -53,6 +53,11 @@ class ApplicationController < Sinatra::Base
     review.to_json
   end
 
+  get "/movies/:id/reviews" do
+    review = Movie.find(params[:id]).reviews
+    review.to_json(:include => [:user])
+  end
+
   
   #users controller, not yet fully in use
 
@@ -101,9 +106,5 @@ end
     #end
 
     
-  #get "/reviews/:id/comments" do
-    #review = Review.find(params[:id])
-    #review_comment = review.comments
-    #review_comment.to_json
-  #end
+  
 
