@@ -128,13 +128,13 @@ user_data = [
   {
     username: "Jacob",
     password: "firstOne",
-    icon: "stealth-jpg",
+    email: "stealth-jpg",
     number_of_reviews: 3
   },
   {
     username: "Nikki",
     password: "secondOne",
-    icon: "sexy-jpg",
+    email: "sexy-jpg",
     number_of_reviews: 4
   }
 ]
