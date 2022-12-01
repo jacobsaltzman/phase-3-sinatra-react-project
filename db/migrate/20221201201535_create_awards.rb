@@ -8,5 +8,6 @@ class CreateAwards < ActiveRecord::Migration[6.1]
       t.integer :house_id
 
       t.timestamps 
+    end
   end
 end
