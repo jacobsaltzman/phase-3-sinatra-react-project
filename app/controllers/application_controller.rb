@@ -1,5 +1,21 @@
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
+
+
+  #house controller
+
+  get "/houses" do
+    houses = House.all
+    houses.to_json
+  end
+
+  get "/awards" do
+    awards = Award.all
+    awards.to_json(:include => [:house])
+  end
+
+
+
   
   #movies controller
 
@@ -58,8 +74,10 @@ class ApplicationController < Sinatra::Base
     review.to_json(:include => [:user])
   end
 
-  
-  #users controller, not yet fully in use
+
+
+
+  #users controller,
 
   get "/users" do
     users = User.all 
@@ -76,9 +94,15 @@ class ApplicationController < Sinatra::Base
     user.to_json
   end
 
+
+
+  get "/" do
+    { message: "Boo!" }.to_json
+  end
+
 end
 
-#depreciated methods
+#depreciated methods but saving for potential future use
 
   #patch request for just the comment portion
   #patch "/reviews/:id/comments" do
@@ -101,9 +125,7 @@ end
       #review_user.to_json
     #end
 
-    #get "/" do
-      #{ message: "Boo!" }.to_json
-    #end
+    
 
     
   
