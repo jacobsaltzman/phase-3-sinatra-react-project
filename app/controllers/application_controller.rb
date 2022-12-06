@@ -21,7 +21,7 @@ class ApplicationController < Sinatra::Base
 
   get "/movies" do
     movies = Movie.all 
-    movies.to_json  
+    movies.to_json(:include => [:reviews])  
   end
 
   get "/movies/:id" do
@@ -35,7 +35,7 @@ class ApplicationController < Sinatra::Base
 
   post "/movies" do
     movie = Movie.create(params)
-    movie.to_json
+    movie.to_json(:include => [:reviews]) 
   end
 
 
