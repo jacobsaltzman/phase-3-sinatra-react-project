@@ -25,7 +25,7 @@ https://github.com/jacobsaltzman/phase-3-react-frontend
 For this project, the back-end does the following:
 
 
-[✔️] Uses Active Record to interact with an SQL database.
+[✔️] Uses Active Record to interact with an SQL database created with the migrations.
 
 
 [✔️] Has at least two models with a one-to-many relationship.
@@ -39,7 +39,7 @@ For this project, the back-end does the following:
 
     --**Create** a new movie or a user (just a simulation of user-creation; authentication comes later)
 
--   --**Read** a list of movies or users
+    --**Read** a list of movies or users
 
 
   - full CRUD capability for one of the review model:
@@ -70,6 +70,14 @@ For this project, the back-end does the following:
 
 ### Backend Setup
 
+
+This repository has all the starter code needed to get a Sinatra backend up and
+running. Run `bundle install` to install the gems.
+
+
+If not present, run `rake db:migrate` to run the migrations and get the necessary **schema**. And you can also run `rake db:seed` if you wish to use the **seed data**.
+
+
 You can start your server with:
 
 ```console
@@ -78,10 +86,6 @@ $ bundle exec rake server
 
 This will run your server on port
 [http://localhost:9292](http://localhost:9292).
-
-
-This repository has all the starter code needed to get a Sinatra backend up and
-running. Run `bundle install` to install the gems.
 
 
 ### Frontend Setup
