@@ -4,7 +4,7 @@
 ## Description
 
 
-- The API for a horror movie database with details for each, including director, release date, and sub-genre. Among that list, movies include reviews through "users" that post comments and ratings, both on overall quality of the film and the scariness factor.  This includes the database migrations, models, and controllers for all the parts, along with necessary gem files and configurations.
+The API for a horror movie database with details for each, including director, release date, and sub-genre. Among that list, movies include reviews through "users" that post comments and ratings, both on overall quality of the film and the scariness factor.  This includes the database migrations, models, and controllers for all the parts, along with necessary gem files and configurations.
 
 
 ## Introduction
@@ -34,24 +34,24 @@ For this project, the back-end does the following:
 [✔️] Uses API routes in Sinatra to add:
 
 
-  - create and read actions for the movie and user models
+  - create and read actions for the movie and user models:
 
 
-  **Create** a new movie or a user (just a simulation of user-creation; authentication comes later)
+    --**Create** a new movie or a user (just a simulation of user-creation; authentication comes later)
 
-- **Read** a list of movies or users
-
-
-  - full CRUD capability for one of the review model
+-   --**Read** a list of movies or users
 
 
-  **Create** a new review of a movie
+  - full CRUD capability for one of the review model:
 
-- **Read** a list of reviews
 
-- **Update** an individual review
+    --**Create** a new review of a movie
 
-- **Delete** a review
+    --**Read** a list of reviews
+
+    --**Update** an individual review
+
+    --**Delete** a review
 
 
 [✔️] Build a separate React frontend application that interacts with the API to
