@@ -4,7 +4,7 @@
 ## Description
 
 
-The API for a horror movie database with details for each, including director, release date, and sub-genre. Among that list, movies include reviews through "users" that post comments and ratings, both on overall quality of the film and the scariness factor.  This includes the database migrations, models, and controllers for all the parts, along with necessary gem files and configurations.
+The API for a horror movie database with details for each movie, including director, release date, and sub-genre. Among that list, movies include reviews through "users" that post comments and ratings, both on overall quality of the film and the scariness factor.  This includes the database migrations, models, and controllers for all the parts, along with necessary gem files and configurations.
 
 
 ## Introduction
@@ -54,7 +54,7 @@ For this project, the back-end does the following:
     --**Delete** a review
 
 
-[✔️] Build a separate React frontend application that interacts with the API to
+[✔️] Builds a separate React frontend application that interacts with the API to
   perform CRUD actions.
 
 
@@ -86,6 +86,14 @@ $ bundle exec rake server
 
 This will run your server on port
 [http://localhost:9292](http://localhost:9292).
+
+
+Review the JSON data and make fetch requests for each model using:
+
+[http://localhost:9292/movies](http://localhost:9292/movies)
+
+[http://localhost:9292/reviews](http://localhost:9292/reviews).
+
 
 
 ### Frontend Setup
